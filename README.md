@@ -1,6 +1,6 @@
-# 🤖 AIChatForWork
+# 🤖 Ask Question Bot
 
-AIChatForWork is a multilingual Telegram bot built with **Aiogram 3** and powered by **OpenAI (ChatGPT)**.  
+Ask Question Bot is a multilingual Telegram bot built with **Aiogram 3** and powered by **OpenAI (ChatGPT)**.  
 Users can ask topic-based questions in 3 languages. Admins can broadcast messages with delivery stats.
 
 ---
@@ -10,7 +10,7 @@ Users can ask topic-based questions in 3 languages. Admins can broadcast message
 - Python 3.10+
 - Aiogram 3.x
 - OpenAI (ChatGPT)
-- Django REST API (for user and answer tracking)
+- Django Admin Panel (for control users and answers)
 - PostgreSQL
 
 ---
