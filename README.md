@@ -66,5 +66,5 @@ apps/                 # Django-side API config (users, answers)
 
 ## 👤 Author
 
-**Muhammad Nur** — Telegram AI bot developer  
-🔗 [GitHub Profile](https://github.com/yourusername)
+**Muhammad Nur** — Back-End developer  
+🔗 [GitHub Profile](https://github.com/muhammadnuruz)
