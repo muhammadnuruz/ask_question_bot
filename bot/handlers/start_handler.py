@@ -51,12 +51,15 @@ async def choose_language(call: CallbackQuery, state: FSMContext):
     await call.message.delete()
     language = call.data.split("_")[-1]
     for admin in admins:
-        await bot.send_message(chat_id=admin, text=f"""
+        try:
+            await bot.send_message(chat_id=admin, text=f"""
 Yangi user🆕
 ID: <a href='tg://user?id={call.from_user.id}'>{call.from_user.id}</a>
 Username: @{call.from_user.username}
 Ism-Familiya: {call.from_user.full_name}
 Til: {language}""", parse_mode='HTML')
+        except Exception:
+            pass
     await create_user_by_chat_id(
         chat_id=call.from_user.id,
         full_name=call.from_user.full_name,
