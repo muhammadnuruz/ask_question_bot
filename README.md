@@ -32,12 +32,14 @@ cd ask_question_bot
 python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
-python manage.py runserver && python main.py
+python manage.py runserver
+python main.py
 ```
 ## 🔐 Environment Configuration
 
 Create a `.env` file in the project root and add the following:
 
+```bash
 BOT_TOKEN=your_telegram_token
 OPENAI_API_KEY=your_openai_key
 DB_NAME=your_db_name
@@ -45,6 +47,7 @@ DB_USER=your_db_user
 DB_PASSWORD=your_db_password
 DB_HOST=your_db_host
 DB_PORT=5432(postgresql's_post)
+```
 
 ---
 
