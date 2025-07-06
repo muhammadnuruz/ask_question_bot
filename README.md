@@ -27,12 +27,12 @@ Users can ask topic-based questions in 3 languages. Admins can broadcast message
 ## 🚀 Getting Started
 
 ```bash
-git clone https://github.com/yourusername/AIChatForWork.git
-cd AIChatForWork
+[git clone https://github.com/yourusername/AIChatForWork.git](https://github.com/muhammadnuruz/ask_question_bot.git)
+cd ask_question_bot
 python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
-python main.py
+python manage.py runserver && python main.py
 ```
 ## 🔐 Environment Configuration
 
