@@ -53,12 +53,14 @@ DB_PORT=5432(postgresql's_post)
 
 ## 📂 Project Structure
 
-*****bot/
-*****├── handlers/ # start, question, admin handlers
-*****├── buttons/ # reply & inline keyboards
-*****├── dispatcher.py # Dispatcher and bot instance
-*****main.py # Entry point
-*****apps/ # Django-side API config (users, answers)
+```bash
+bot/
+├── handlers/         # start, question, admin handlers
+├── buttons/          # reply & inline keyboards
+├── dispatcher.py     # Dispatcher and bot instance
+main.py               # Entry point
+apps/                 # Django-side API config (users, answers)
+```
 
 ---
 
