@@ -1,0 +1,88 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+MANIFEST
+*.manifest
+*.spec
+
+# === Django ===
+*.log
+*.pot
+*.mo
+db.sqlite3
+db.sqlite3-journal
+local_settings.py
+
+# === Enviroments ===
+.env
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# === IDEs & Editors ===
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# === PyCharm specific ===
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/shelf
+.idea/httpRequests
+.idea/**/dataSources*
+.idea/**/mongoSettings.xml
+.idea/**/uiDesigner.xml
+.idea/**/sonarlint/
+.idea/caches/
+*.iws
+*.iml
+
+# === Pip, Poetry, PyInstaller ===
+pip-log.txt
+pip-delete-this-directory.txt
+*.lock
+poetry.lock
+pdm.lock
+__pypackages__/
+
+# === Test/Coverage ===
+.coverage
+.coverage.*
+.tox/
+.nox/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.pytest_cache/
+.hypothesis/
+
+# === Docs ===
+docs/_build/
+
+# === Static & Media Files ===
+staticfiles/
+media/
+images/
+
+# === Jupyter & IPython ===
+.ipynb_checkpoints/
+profile_default/
+ipython_config.py
+
+# === Cython ===
+cython_debug/
+
+# === Other ===
+*.DS_Store
