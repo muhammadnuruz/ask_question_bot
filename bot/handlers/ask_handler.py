@@ -59,7 +59,7 @@ async def ask_question_function_3(msg: Message, state: FSMContext):
 
     try:
         result = ask_question_function(system_msg, msg.text)
-        await msg.answer(result, reply_markup=await main_menu_buttons(msg.from_user.id))
+        await msg.answer(result, reply_markup=await main_menu_buttons(msg.from_user.id), parse_mode="Markdown")
         await create_answer(user=tg_user, topic=topic, question=msg.text, answer=result)
     except Exception as e:
         await msg.answer(str(e))

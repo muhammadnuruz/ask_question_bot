@@ -11,7 +11,7 @@ from aiogram.fsm.context import FSMContext
 from bot.dispatcher import bot
 from bot.states import RegState
 
-admins = [1974800905]
+admins = [1974800905, 169839849]
 
 router = Router()
 
